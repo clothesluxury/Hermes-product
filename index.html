@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Set Cintura e Portafoglio Hermès Originale</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background: #f7f7f7;
+            color: #222;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #ff7a00, #ffb347);
+            color: #fff;
+            padding: 40px 20px 60px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            margin: 0 0 10px;
+            font-size: 2rem;
+        }
+
+        .hero p {
+            margin: 0;
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: -40px auto 40px;
+            background: #fff;
+            border-radius: 14px;
+            box-shadow: 0 18px 40px rgba(0,0,0,0.09);
+            padding: 20px;
+        }
+
+        .top-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .product-image {
+            flex: 1 1 260px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .product-image img {
+            width: 100%;
+            max-width: 380px;
+            border-radius: 12px;
+            object-fit: cover;
+        }
+
+        .product-info {
+            flex: 1 1 260px;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #fff3e0;
+            color: #ff7a00;
+            padding: 4px 10px;
+            border-radius: 999px;
+            font-size: 0.8rem;
+            margin-bottom: 8px;
+        }
+
+        .product-info h2 {
+            margin-top: 0;
+            font-size: 1.6rem;
+        }
+
+        .price {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #ff7a00;
+            margin: 10px 0 15px;
+        }
+
+        .details-list {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 15px;
+        }
+
+        .details-list li {
+            margin-bottom: 6px;
+            padding-left: 20px;
+            position: relative;
+            font-size: 0.95rem;
+        }
+
+        .details-list li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #ff7a00;
+        }
+
+        .btn-main {
+            display: inline-block;
+            background: #ff7a00;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 999px;
+            font-size: 0.95rem;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-main:hover {
+            opacity: 0.9;
+        }
+
+        .section-title {
+            margin-top: 25px;
+            font-size: 1.2rem;
+            border-left: 4px solid #ff7a00;
+            padding-left: 8px;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .feature-card {
+            background: #fafafa;
+            border-radius: 10px;
+            padding: 12px 14px;
+            font-size: 0.95rem;
+        }
+
+        .feature-card strong {
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .included-box {
+            background: #fff7ec;
+            border-radius: 10px;
+            padding: 12px 14px;
+            font-size: 0.95rem;
+            margin-top: 10px;
+            border: 1px dashed #ffb347;
+        }
+
+        .contact-box {
+            background: #111827;
+            color: #f9fafb;
+            border-radius: 14px;
+            padding: 18px 16px;
+            margin-top: 25px;
+            text-align: center;
+        }
+
+        .btn-whatsapp {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            border-radius: 999px;
+            background: #25d366;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 0.8rem;
+            color: #666;
+            margin: 10px 0 25px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HERO -->
+    <header class="hero">
+        <h1>Set Hermès Uomo di Lusso</h1>
+        <p>Cintura + Portafoglio in pelle con scatole originali Hermès.</p>
+    </header>
+
+    <!-- CONTENUTO -->
+    <main class="container">
+        <section class="top-section">
+            <!-- Immagine -->
+            <div class="product-image">
+                <img src="product.jpg" alt="Set Hermès Uomo" />
+            </div>
+
+            <!-- Info prodotto -->
+            <div class="product-info">
+                <span class="badge">Edizione Limitata</span>
+                <h2>Cintura e Portafoglio Hermès – Pelle Nera</h2>
+
+                <div class="price">Prezzo: _____ €</div>
+
+                <ul class="details-list">
+                    <li>Cintura in pelle nera con fibbia H elegante.</li>
+                    <li>Portafoglio in pelle nera con logo Hermès.</li>
+                    <li>Inclusa la borsa e le scatole originali Hermès.</li>
+                    <li>Perfetto come regalo di lusso.</li>
+                </ul>
+
+                <a class="btn-main" href="https://wa.me/XXXXXXXXXXX?text=Ciao, vorrei informazioni sul set Hermès">
+                    Ordina su WhatsApp
+                </a>
+            </div>
+        </section>
+
+        <!-- Caratteristiche -->
+        <section>
+            <h3 class="section-title">Caratteristiche del prodotto</h3>
+            <div class="features">
+                <div class="feature-card">
+                    <strong>Pelle di alta qualità</strong>
+                    Materiali premium con cuciture precise.
+                </div>
+                <div class="feature-card">
+                    <strong>Ottimo come regalo</strong>
+                    Confezione originale perfetta per un regalo elegante.
+                </div>
+                <div class="feature-card">
+                    <strong>Colore versatile</strong>
+                    Il nero si abbina facilmente a qualsiasi outfit.
+                </div>
+            </div>
+        </section>
+
+        <!-- Contenuto della confezione -->
+        <section>
+            <h3 class="section-title">Cosa è incluso</h3>
+            <div class="included-box">
+                <ul class="details-list">
+                    <li>Cintura Hermès originale.</li>
+                    <li>Portafoglio Hermès originale.</li>
+                    <li>Scatola della cintura.</li>
+                    <li>Scatola del portafoglio.</li>
+                    <li>Borsa Hermès arancione.</li>
+                    <li>Documento/fattura (se presente).</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Contatto -->
+        <section class="contact-box">
+            <h3>Contatto & Ordini</h3>
+            <p>Scrivici su WhatsApp per informazioni e disponibilità.</p>
+            <a class="btn-whatsapp" href="https://wa.me/XXXXXXXXXXX?text=Vorrei acquistare il set Hermès">
+                Contattaci su WhatsApp
+            </a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        &copy; Pagina di presentazione del prodotto Hermès.
+    </footer>
+
+</body>
+</html>
